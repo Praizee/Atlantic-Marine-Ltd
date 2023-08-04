@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Niramit&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +7,13 @@
 * {
   margin: 0;
   padding: 0;
-  font: inherit;
+  /* font: inherit; */
+  font-family: 'Niramit', sans-serif;
   overflow-x: hidden;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+  /* For Safari */
 }
