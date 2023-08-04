@@ -12,8 +12,9 @@ const Footer = () => {
     <div className="footer-items bg-[#893232] text-slate-100 pb-4">
       <footer className="footer p-10">
         {/* border-b-[2px] */}
+
         <div className="">
-          <img src={AtlanticLogo} alt="footer web logo" />
+          <img src={AtlanticLogo} alt="footer web logo" className="mb-10" />
 
           <span className="footer-title">Contact(s)</span>
           <a className="link link-hover">+234 (0) 803 465 7847</a>
@@ -22,30 +23,29 @@ const Footer = () => {
           <a className="link link-hover">Takoradi Tel: +233 24 221 5798</a>
         </div>
 
-        <div>
+        <div className="pt-28">
           <span className="footer-title">Lagos office</span>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <a className="link link-hover">YMCA House,</a>
+          <a className="link link-hover">1st Floor, 77, Awolowo Road</a>
+          <a className="link link-hover">Ikoyi, Lagos, Nigeria</a>
         </div>
 
-        <div>
-          <span className="footer-title">Company</span>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+        <div className="pt-28">
+          <span className="footer-title">port harcourt office</span>
+          <a className="link link-hover">Atlantic</a>
+          <a className="link link-hover">Marine yard, 312 Port</a>
+          <a className="link link-hover">Harcourt/Aba</a>
+          <a className="link link-hover">Road.</a>
         </div>
 
-        <div>
-          <span className="footer-title">Legal</span>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+        <div className="pt-28">
+          <span className="footer-title">takoradi office</span>
+          <a className="link link-hover">Navy Air-base, SOPC/</a>
+          <a className="link link-hover">GNPC Shore Base,</a>
+          <a className="link link-hover">Takoradi, Ghana</a>
         </div>
 
-        <div>
+        <div className="pt-28">
           <span className="footer-title">Social</span>
           <div className="grid grid-flow-col gap-4">
             <FaLinkedin className="social-icon" />
