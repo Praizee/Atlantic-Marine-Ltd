@@ -5,9 +5,9 @@ import { FaLinkedin, FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="footer-items bg-[#893232] text-slate-100">
-      <footer className="footer p-10">
-        <div>
+    <div className="footer-items bg-[#893232] text-slate-100 pb-4">
+      <footer className="footer p-10 border-b-[2px] ">
+        <div className="">
           <img src={AtlanticLogo} alt="footer web logo" />
 
           <span className="footer-title">Services</span>
@@ -46,10 +46,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-
-
-
-
+      <p className="p-2 justify-end">Copyright</p>
 
     </div>
 
