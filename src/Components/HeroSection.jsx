@@ -15,7 +15,7 @@ export const HeroSection = () => {
                             of offshore platforms, pipelines, and FPSOs are all major <br />
                             uses for our ROVs.
                         </p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <button className="btn rounded-none hover:bg-[#204476] bg-[#305D96] text-slate-100">Get Started</button>
                     </div>
                 </div>
             </div>
