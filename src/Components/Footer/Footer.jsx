@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="">
           <img src={AtlanticLogo} alt="footer web logo" />
 
-          <span className="footer-title">Services</span>
+          <span className="footer-title">Contact(s)</span>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>
           <a className="link link-hover">Marketing</a>
