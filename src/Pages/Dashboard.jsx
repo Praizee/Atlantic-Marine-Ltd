@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../Components/Navbars/Navbar"
 import Footer from "../Components/Footer/Footer"
-import { HeroSection } from "../Components/HeroSection";
+import { HeroSection } from "../Components/Hero/HeroSection";
 
 
 const Dashboard = () => {
