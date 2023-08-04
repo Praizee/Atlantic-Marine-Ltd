@@ -1,7 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import AtlanticLogo from "../../assets/AtlanticLogo.png";
-import { FaLinkedin, FaFacebookF } from "react-icons/fa";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 const Footer = () => {
   // date for copyright
@@ -48,8 +49,8 @@ const Footer = () => {
         <div className="pt-28">
           <span className="footer-title">Social</span>
           <div className="grid grid-flow-col gap-4">
-            <FaLinkedin className="social-icon border bg-[#eae7e741]" />
-            <FaFacebookF className="social-icon border bg-[#eae7e741]" />
+            <LinkedInIcon className="social-icon border bg-[#eae7e741]" />
+            <FacebookIcon className="social-icon border bg-[#eae7e741]" />
           </div>
         </div>
       </footer>
