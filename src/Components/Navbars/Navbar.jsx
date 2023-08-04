@@ -4,7 +4,6 @@ import { NavbarData } from "./NavbarData"
 import AtlanticLogo from "../../assets/AtlanticLogo.png"
 import { BiEnvelope } from "react-icons/bi";
 import "./Navbar.css";
-// import DropDown from "../DropDown";
 
 const Navbar = () => {
   return (
@@ -19,11 +18,6 @@ const Navbar = () => {
               <li key={index} className={item.className}>
                 <Link to={item.path} className="list-item">
                   <span className="item-title">{item.title}</span>
-                  {/* dropdown */}
-                  <span>
-                    {/* <DropDown /> */}
-                  </span>
-                  {/* end of dropdown */}
                   <span className="item-icon">{item.icon}</span>
                 </Link>
               </li>
