@@ -1,4 +1,9 @@
 /* Footer styling */
+footer {
+    border-bottom: 2px solid rgba(234, 231, 231, 0.196);
+}
+
+
 .footer-items {
     /* display: flex; */
     /* background-color: #893232; */
@@ -10,4 +15,8 @@
     padding: 0 6rem;
 
 
+}
+
+.copyright {
+    color: rgba(234, 231, 231, 0.584);
 }
