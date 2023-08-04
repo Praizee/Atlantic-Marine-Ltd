@@ -13,10 +13,12 @@ footer {
     /* justify-content: center; */
     /* align-items: center; */
     padding: 0 6rem;
-
-
 }
 
 .copyright {
     color: rgba(234, 231, 231, 0.584);
+}
+
+.social icon {
+    width: 2rem;
 }
