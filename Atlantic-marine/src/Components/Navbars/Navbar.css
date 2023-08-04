@@ -1,0 +1,43 @@
+/* Navbar stylyng */
+#navbar-components {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 150px;
+    margin-top: 15px;
+
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+
+}
+.nav-menu-items{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.list-item{
+    text-decoration: none;
+    color: black;
+}
+.contact-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-btn{
+    background: #305D96;
+    border-radius: 2px;
+    color: #fff;
+    width: 90px;
+    height: 25px;
+}
+.contact-btn:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
