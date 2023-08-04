@@ -4,9 +4,16 @@ import AtlanticLogo from "../../assets/AtlanticLogo.png";
 import { FaLinkedin, FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
+  // date for copyright
+  const date = document.querySelector("#date");
+  // set year
+  const theDate = new Date().getFullYear();
+  // end of date
+
   return (
     <div className="footer-items bg-[#893232] text-slate-100 pb-4">
-      <footer className="footer p-10 border-b-[2px] ">
+      <footer className="footer p-10">
+        {/* border-b-[2px] */}
         <div className="">
           <img src={AtlanticLogo} alt="footer web logo" />
 
@@ -46,8 +53,12 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <p className="p-2 justify-end">
-        Copyright @2022 Atlantic Marine & Oilfield Services Limited. All rights reserved
+      <p className="p-2 copyright float-right">
+        Copyright
+        @
+        {/* 2022 */}
+        <span>{theDate} </span>
+        Atlantic Marine & Oilfield Services Limited. All rights reserved
       </p>
 
     </div>
