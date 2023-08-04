@@ -46,7 +46,9 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <p className="p-2 justify-end">Copyright</p>
+      <p className="p-2 justify-end">
+        Copyright @2022 Atlantic Marine & Oilfield Services Limited. All rights reserved
+      </p>
 
     </div>
 
