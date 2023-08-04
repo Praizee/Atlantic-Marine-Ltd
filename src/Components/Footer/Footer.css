@@ -3,6 +3,10 @@ footer {
     border-bottom: 2px solid rgba(234, 231, 231, 0.196);
 }
 
+/* hr {
+    width: 70%;
+    border: 2px solid rgba(234, 231, 231, 0.196);
+} */
 
 .footer-items {
     /* display: flex; */
