@@ -54,8 +54,10 @@ const Footer = () => {
         </div>
       </footer>
 
+      {/* <hr /> */}
+
       {/* copyright */}
-      <p className="p-2 copyright float-right">
+      <p className="pt-6 pb-4 copyright float-right">
         Copyright
         @
         <span>{theDate} </span>
