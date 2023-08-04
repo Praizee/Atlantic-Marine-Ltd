@@ -5,8 +5,6 @@ import { FaLinkedin, FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   // date for copyright
-  const date = document.querySelector("#date");
-  // set year
   const theDate = new Date().getFullYear();
   // end of date
 
@@ -56,7 +54,6 @@ const Footer = () => {
       <p className="p-2 copyright float-right">
         Copyright
         @
-        {/* 2022 */}
         <span>{theDate} </span>
         Atlantic Marine & Oilfield Services Limited. All rights reserved
       </p>
