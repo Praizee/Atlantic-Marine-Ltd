@@ -48,8 +48,8 @@ const Footer = () => {
         <div className="pt-28">
           <span className="footer-title">Social</span>
           <div className="grid grid-flow-col gap-4">
-            <FaLinkedin className="social-icon" />
-            <FaFacebookF className="social-icon" />
+            <FaLinkedin className="social-icon border bg-[#eae7e741]" />
+            <FaFacebookF className="social-icon border bg-[#eae7e741]" />
           </div>
         </div>
       </footer>
