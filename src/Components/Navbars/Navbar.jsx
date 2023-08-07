@@ -12,7 +12,9 @@ const Navbar = () => {
 
 
         <div className="web-logo">
-          <img className="logo" src={AtlanticLogo} alt="web Logo" />
+          <a href="">
+            <img className="logo" src={AtlanticLogo} alt="web Logo" />
+          </a>
         </div>
 
         <nav tabIndex={0} className="nav-menu">
