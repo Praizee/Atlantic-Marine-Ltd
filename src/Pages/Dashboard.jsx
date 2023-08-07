@@ -26,7 +26,9 @@ const Dashboard = () => {
       <div className="">
         <Footer />
       </div>
-      <ScrollButton />
+
+      {/* <ScrollButton /> */}
+
     </section>
   );
 };
