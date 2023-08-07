@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <div className="footer-items bg-[#893232] text-slate-100 pb-4">
-      <footer className="footer p-10">
+      <footer className="footer p-10 laptop:">
         {/* border-b-[2px] */}
 
         <div className="">
@@ -24,14 +24,14 @@ const Footer = () => {
           <a className="">Takoradi Tel: +233 24 221 5798</a>
         </div>
 
-        <div className="pt-28">
+        <div className="laptop:pt-28 tablet:pt-28 lg:pt-28">
           <span className="footer-title">Lagos office</span>
           <a className="">YMCA House,</a>
           <a className="">1st Floor, 77, Awolowo Road</a>
           <a className="">Ikoyi, Lagos, Nigeria</a>
         </div>
 
-        <div className="pt-28">
+        <div className="laptop:pt-28 tablet:pt-28 lg:pt-28">
           <span className="footer-title">port harcourt office</span>
           <a className="">Atlantic</a>
           <a className="">Marine yard, 312 Port</a>
@@ -39,14 +39,14 @@ const Footer = () => {
           <a className="">Road.</a>
         </div>
 
-        <div className="pt-28">
+        <div className="laptop:pt-28 tablet:pt-28 lg:pt-28">
           <span className="footer-title">takoradi office</span>
           <a className="">Navy Air-base, SOPC/</a>
           <a className="">GNPC Shore Base,</a>
           <a className="">Takoradi, Ghana</a>
         </div>
 
-        <div className="pt-28">
+        <div className="laptop:pt-28 tablet:pt-28 lg:pt-28">
           <span className="footer-title">Social</span>
           <div className="grid grid-flow-col gap-4">
             <LinkedInIcon sx={{ fontSize: "2rem" }} className="social-icon border-none rounded-md p-1 bg-[#eae7e741]" />
@@ -58,7 +58,7 @@ const Footer = () => {
       {/* <hr /> */}
 
       {/* copyright */}
-      <p className="pt-6 pb-4 copyright float-right">
+      <p className="pt-6 pb-4 copyright laptop:float-right tablet:float-right lg:float-right text-center">
         Copyright
         @
         <span>{theDate} </span>
