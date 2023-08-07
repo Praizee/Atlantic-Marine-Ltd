@@ -35,7 +35,7 @@ const NewNavBar = () => {
                                 <li><a>Item 3</a></li>
                             </ul>
                         </div>
-                        <a className="btn btn-ghost normal-case text-xl w-4/5">
+                        <a className="btn btn-ghost normal-case text-xl w-10/12">
                             <img className="w-full" src={AtlanticLogo} alt="web Logo" />
                         </a>
 
