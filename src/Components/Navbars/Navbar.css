@@ -8,6 +8,10 @@
 
 }
 
+.web-logo {
+    width: 70%;
+}
+
 .nav-menu {
     display: flex;
     align-items: center;
