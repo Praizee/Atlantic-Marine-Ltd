@@ -12,7 +12,7 @@ export const NavbarData = [
   {
     title: "Services",
     path: "/services",
-    icon: <RiArrowDropDownFill />,
+    icon: <RiArrowDropDownFill className="" />,
     className: "nav-text",
   },
 
