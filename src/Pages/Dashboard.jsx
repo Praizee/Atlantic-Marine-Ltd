@@ -11,6 +11,7 @@ const Dashboard = () => {
     <section>
       <div>
         <Navbar />
+        < />
       </div>
 
       <div className="">
