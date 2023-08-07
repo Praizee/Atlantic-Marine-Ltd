@@ -10,8 +10,8 @@ const Footer = () => {
   // end of date
 
   return (
-    <div className="footer-items bg-[#893232] text-slate-100 pb-4">
-      <footer className="footer p-10 laptop:">
+    <div className="footer-items bg-[#893232] text-slate-100 pb-4 laptop:px-16">
+      <footer className="footer p-10">
         {/* border-b-[2px] */}
 
         <div className="">
