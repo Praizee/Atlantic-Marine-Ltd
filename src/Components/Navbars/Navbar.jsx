@@ -8,10 +8,14 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <main id="navbar-components">
+      <label tabIndex={0} className="btn btn-ghost laptop:hidden tablet:hidden lg:hidden float-left">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </label>
       <div className="web-logo">
         <img className="logo" src={AtlanticLogo} alt="web Logo" />
       </div>
-      <nav className="nav-menu">
+
+      <nav tabIndex={0} className="nav-menu">
         <ul className="nav-menu-items">
           {NavbarData.map((item, index) => {
             return (
@@ -25,6 +29,8 @@ const Navbar = () => {
           })}
         </ul>
       </nav>
+
+      {/* contact button */}
       <div className="contact-link">
         <Link to="/contact">
           <button className="btn rounded-md bg-[#305D96] hover:bg-[#204476] text-slate-100">
