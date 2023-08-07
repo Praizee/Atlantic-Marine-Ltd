@@ -26,12 +26,14 @@
 .list-item {
     text-decoration: none;
     color: black;
-    overflow: hidden;
+}
+
+li {
+    padding: 0.3rem;
 }
 
 li:hover {
     background-color: #b8b5b56b;
-    padding: 0.5rem;
     border-radius: 10px;
 }
 
