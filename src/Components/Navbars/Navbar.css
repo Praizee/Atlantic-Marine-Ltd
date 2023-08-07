@@ -3,16 +3,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0 150px;
+    padding: 0 150px;
     margin-top: 15px;
 
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     align-items: center;
 
 }
-.nav-menu-items{
+
+.nav-menu-items {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -20,24 +22,35 @@
     justify-content: space-between;
     list-style: none;
 }
-.list-item{
+
+.list-item {
     text-decoration: none;
     color: black;
+    overflow: hidden;
 }
-.contact-link{
+
+li:hover {
+    background-color: #b8b5b56b;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.contact-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.contact-btn{
+
+.contact-btn {
     background: #305D96;
     border-radius: 2px;
     color: #fff;
     width: 90px;
     height: 25px;
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     cursor: pointer;
     transform: scale(1.02);
 }

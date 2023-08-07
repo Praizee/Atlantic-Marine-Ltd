@@ -21,6 +21,11 @@ footer {
     border-bottom: 2px solid rgba(234, 231, 231, 0.196);
 }
 
+.footer-items a,
+span {
+    overflow: hidden;
+}
+
 .copyright {
     color: rgba(234, 231, 231, 0.584);
 }
