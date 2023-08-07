@@ -8,7 +8,7 @@ import "./Navbar.css";
 const NewNavBar = () => {
     return (
         <main id="">
-            <div className="flex laptop:hidden smaller:flex tablet:hidden">
+            <div className="flex laptop:hidden smaller:flex tablet:hidden fixed z-[1] top-0">
                 {/* <a className="btn btn-ghost normal-case text-xl">
                     <img className="web-logo" src={AtlanticLogo} alt="web Logo" />
                 </a> */}
