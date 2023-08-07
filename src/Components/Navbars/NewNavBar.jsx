@@ -69,21 +69,6 @@ const NewNavBar = () => {
                 </div>
                 {/* end of navbar */}
 
-                {/* <nav tabIndex={0} className="nav-menu">
-                    <ul className="nav-menu-items">
-                        {NavbarData.map((item, index) => {
-                            return (
-                                <li key={index} className={item.className}>
-                                    <Link to={item.path} className="list-item">
-                                        <span className="item-title">{item.title}</span>
-                                        <span className="item-icon">{item.icon}</span>
-                                    </Link>
-                                </li>
-                            );
-                        })}
-                    </ul>
-                </nav> */}
-
                 {/* contact button */}
                 <Link to="/contact" className="hidden">
                     <button className="btn rounded-md bg-[#305D96] hover:bg-[#204476] text-slate-100">
