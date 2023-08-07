@@ -5,34 +5,29 @@ import AtlanticLogo from "../../assets/AtlanticLogo.png"
 import { BiEnvelope } from "react-icons/bi";
 import "./Navbar.css";
 
-const Navbar = () => {
+const NewNavBar = () => {
     return (
-        <main id="navbar-components">
-
-            <label tabIndex={0} className="btn btn-ghost laptop:hidden tablet:hidden lg:hidden float-left">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </label>
-            <div className="web-logo">
+        <main id="">
+            <div className="flex laptop:hidden smaller:hidden tablet:hidden">
                 <img className="logo" src={AtlanticLogo} alt="web Logo" />
-            </div>
 
-            <nav tabIndex={0} className="nav-menu">
-                <ul className="nav-menu-items">
-                    {NavbarData.map((item, index) => {
-                        return (
-                            <li key={index} className={item.className}>
-                                <Link to={item.path} className="list-item">
-                                    <span className="item-title">{item.title}</span>
-                                    <span className="item-icon">{item.icon}</span>
-                                </Link>
-                            </li>
-                        );
-                    })}
-                </ul>
-            </nav>
 
-            {/* contact button */}
-            <div className="contact-link">
+                {/* <nav tabIndex={0} className="nav-menu">
+                    <ul className="nav-menu-items">
+                        {NavbarData.map((item, index) => {
+                            return (
+                                <li key={index} className={item.className}>
+                                    <Link to={item.path} className="list-item">
+                                        <span className="item-title">{item.title}</span>
+                                        <span className="item-icon">{item.icon}</span>
+                                    </Link>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                </nav> */}
+
+                {/* contact button */}
                 <Link to="/contact">
                     <button className="btn rounded-md bg-[#305D96] hover:bg-[#204476] text-slate-100">
                         Contact
@@ -44,9 +39,8 @@ const Navbar = () => {
                 </Link>
 
             </div>
-
         </main>
     );
 };
 
-export default Navbar;
+export default NewNavBar;
