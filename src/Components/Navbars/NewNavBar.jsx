@@ -9,9 +9,9 @@ const NewNavBar = () => {
     return (
         <main id="">
             <div className="flex laptop:hidden smaller:flex tablet:hidden">
-                <a href="">
-                    <img className="logo hidden" src={AtlanticLogo} alt="web Logo" />
-                </a>
+                {/* <a className="btn btn-ghost normal-case text-xl">
+                    <img className="web-logo" src={AtlanticLogo} alt="web Logo" />
+                </a> */}
 
                 {/* navbar */}
                 <div className="navbar bg-base-100">
@@ -35,9 +35,8 @@ const NewNavBar = () => {
                                 <li><a>Item 3</a></li>
                             </ul>
                         </div>
-                        <a className="btn btn-ghost normal-case text-xl">
-                            <img className="web-logo" src={AtlanticLogo} alt="web Logo" />
-
+                        <a className="btn btn-ghost normal-case text-xl w-4/5">
+                            <img className="w-full" src={AtlanticLogo} alt="web Logo" />
                         </a>
 
                     </div>
@@ -46,7 +45,7 @@ const NewNavBar = () => {
                             <li><a>Item 1</a></li>
                             <li tabIndex={0}>
                                 <details>
-                                    <summary>Parent</summary>
+                                    <summary>Services</summary>
                                     <ul className="p-2">
                                         <li><a>Submenu 1</a></li>
                                         <li><a>Submenu 2</a></li>
