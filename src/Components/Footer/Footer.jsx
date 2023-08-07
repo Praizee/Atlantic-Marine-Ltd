@@ -53,6 +53,7 @@ const Footer = () => {
             <FacebookIcon sx={{ fontSize: "2rem" }} className="social-icon border-none rounded-md p-1 bg-[#eae7e741]" />
           </div>
         </div>
+
       </footer>
 
       {/* <hr /> */}
