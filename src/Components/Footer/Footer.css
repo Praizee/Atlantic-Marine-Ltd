@@ -6,21 +6,3 @@ footer {
 .copyright {
     color: rgba(234, 231, 231, 0.584);
 }
-
-/* hr {
-    width: 70%;
-    border: 2px solid rgba(234, 231, 231, 0.196);
-} */
-
-.footer-items {
-    /* display: flex; */
-    /* background-color: #893232; */
-    /* bottom: 0; */
-    /* position: absolute; */
-    /* width: 100%; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* padding: 0 6rem; */
-    /* padding: 0 6rem; */
-    /* border-bottom: 2px solid rgba(234, 231, 231, 0.196); */
-}
