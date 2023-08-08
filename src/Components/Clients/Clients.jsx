@@ -5,7 +5,7 @@ import Header from "../../assets/clients-header.png"
 const Clients = () => {
   return (
     <section>
-      <div className="">
+      <div className="mt-[8rem] mb-10">
         <img src={Header} />
       </div>
 
