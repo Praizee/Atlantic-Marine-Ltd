@@ -15,9 +15,6 @@ const Dashboard = () => {
       </div>
 
       <div className="">
-      </div>
-
-      <div className="">
         <Outlet />
       </div>
 
