@@ -19,7 +19,7 @@ const Footer = () => {
 
           <span className="footer-title">Contact(s)</span>
           <a className="">+234 (0) 803 465 7847</a>
-          <a className="link link-hover" href="mailto:example@mail.com">info@atlanticmarineoil.com</a>
+          <a className="link link-hover" href="mailto:info@atlanticmarineoil.com">info@atlanticmarineoil.com</a>
           <a className="">Port-Harcourt Tel: +234 (0) 818 886 6115</a>
           <a className="">Takoradi Tel: +233 24 221 5798</a>
         </div>
