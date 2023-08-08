@@ -16,7 +16,7 @@ const Dashboard = () => {
       </div>
 
       <div className="">
-        <HeroSection />
+        {/* <HeroSection /> */}
       </div>
 
       <div className="">
