@@ -7,7 +7,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <main id="navbar-components" className="hidden laptop:block tablet:block lg:block bg-white fixed z-[1] top-0 w-full">
+    <main id="navbar-components" className="hidden laptop:block tablet:block lg:block bg-base-100 fixed z-[1] top-0 w-full">
       <div className="hidden laptop:flex smaller:hidden tablet:flex">
 
 
