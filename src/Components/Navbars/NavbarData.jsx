@@ -4,7 +4,7 @@ import { RiArrowDropDownFill } from "react-icons/ri";
 export const NavbarData = [
   {
     title: "Home",
-    path: "/home",
+    path: "/",
     icon: "",
     className: "nav-text",
   },
