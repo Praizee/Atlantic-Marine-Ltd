@@ -10,12 +10,12 @@ const Footer = () => {
   // end of date
 
   return (
-    <div className="footer-items bg-[#893232] text-slate-100 pb-4 laptop:px-16">
-      <footer className="footer p-10">
+    <div className="footer-items bg-[#893232] text-slate-100  laptop:px-16">
+      <footer className="footer p-10 leading-[1rem]">
         {/* border-b-[2px] */}
 
         <div className="">
-          <img src={AtlanticLogo} alt="footer web logo" className="mb-10" />
+          <img src={AtlanticLogo} alt="footer web logo" className="mb-5" />
 
           <span className="footer-title">Contact(s)</span>
           <a className="">+234 (0) 803 465 7847</a>
@@ -49,8 +49,12 @@ const Footer = () => {
         <div className="laptop:pt-28 tablet:pt-28 lg:pt-28">
           <span className="footer-title">Social</span>
           <div className="grid grid-flow-col gap-4">
-            <LinkedInIcon sx={{ fontSize: "2rem" }} className="social-icon border-none rounded-md p-1 bg-[#eae7e741]" />
-            <FacebookIcon sx={{ fontSize: "2rem" }} className="social-icon border-none rounded-md p-1 bg-[#eae7e741]" />
+            <a href="#">
+              <LinkedInIcon sx={{ fontSize: "2rem" }} className="social-icon border-none rounded-md p-1 bg-[#eae7e741]" />
+            </a>
+            <a href="#">
+              <FacebookIcon sx={{ fontSize: "2rem" }} className="social-icon border-none rounded-md p-1 bg-[#eae7e741]" />
+            </a>
           </div>
         </div>
 
@@ -59,7 +63,7 @@ const Footer = () => {
       {/* <hr /> */}
 
       {/* copyright */}
-      <p className="pt-6 pb-4 copyright laptop:float-right tablet:float-right lg:float-right text-center">
+      <p className="pt-3 pb-4 copyright laptop:float-right tablet:float-right lg:float-right text-center">
         Copyright
         @
         <span>{theDate} </span>
