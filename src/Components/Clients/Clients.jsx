@@ -7,8 +7,8 @@ import "./Clients.css";
 const Clients = () => {
   return (
     <section>
-      <div className="mt-[8rem] mb-10">
-        <img src={Header} className="w-full" />
+      <div className="laptop:mt-[7rem] mt-[5rem] mb-8">
+        <img src={Header} className="w-full " />
 
         <img src={Logos} className="w-3/4 logos mx-auto pt-[2rem] pb-[.5rem] laptop:pb-[4rem]" />
       </div>
