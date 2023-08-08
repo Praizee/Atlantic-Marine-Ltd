@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { NavbarData } from "./NavbarData"
 import AtlanticLogo from "../../assets/AtlanticLogo.png"
-import { BiEnvelope } from "react-icons/bi";
-import "./Navbar.css";
+// import { BiEnvelope } from "react-icons/bi";
+// import "./Navbar.css";
 
 const NewNavBar = () => {
     return (
@@ -14,17 +14,28 @@ const NewNavBar = () => {
                 </a> */}
 
                 {/* navbar */}
-                <div className="navbar bg-base-100">
+                <div className="navbar bg-base-100 w-full">
                     <div className="navbar-start">
+
                         <div className="dropdown">
                             {/* 'hamburger' icon */}
-                            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                            <label tabIndex={0} className="btn btn-ghost lg:hidden flex">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 -ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                             </label>
                             {/* end of icon */}
 
-                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52">
-                                <li><a>Item 1</a></li>
+                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[9999] absolute p-2 shadow bg-black rounded-box w-52">
+                                {NavbarData.map((item, index) => {
+                                    return (
+                                        <li key={index} className={item.className}>
+                                            <Link to={item.path} className="">
+                                                <span className="">{item.title}</span>
+                                                <span className="">{item.icon}</span>
+                                            </Link>
+                                        </li>
+                                    );
+                                })}
+                                {/* <li><a>Item 1</a></li>
                                 <li>
                                     <a>Parent</a>
                                     <ul className="p-2">
@@ -32,7 +43,7 @@ const NewNavBar = () => {
                                         <li><a>Submenu 2</a></li>
                                     </ul>
                                 </li>
-                                <li><a>Item 3</a></li>
+                                <li><a>Item 3</a></li> */}
                             </ul>
                         </div>
                         <a className="btn btn-ghost normal-case text-xl w-full -mr-5">
@@ -49,27 +60,10 @@ const NewNavBar = () => {
                         </Link>
                     </div>
 
-                    {/* <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1">
-
-                            <li><a>Item 1</a></li>
-                            <li tabIndex={0}>
-                                <details>
-                                    <summary>Services</summary>
-                                    <ul className="p-2">
-                                        <li><a>Submenu 1</a></li>
-                                        <li><a>Submenu 2</a></li>
-                                    </ul>
-                                </details>
-                            </li>
-                            <li><a>Item 3</a></li>
-                        </ul>
-                    </div> */}
-
                 </div>
                 {/* end of navbar */}
 
-                {/* contact button */}
+                {/* contact button -unused */}
                 <Link to="/contact" className="hidden">
                     <button className="btn rounded-md bg-[#305D96] hover:bg-[#204476] text-slate-100">
                         Contact
