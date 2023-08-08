@@ -12,7 +12,7 @@ const Navbar = () => {
 
 
         <div className="web-logo">
-          <a href="">
+          <a>
             <img className="logo" src={AtlanticLogo} alt="web Logo" />
           </a>
         </div>
