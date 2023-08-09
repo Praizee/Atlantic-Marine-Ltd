@@ -30,11 +30,11 @@ const Services = () => {
                   </p>
 
                   <p className="pt-2 pb-6 font-notbold laptop:max-w-[87%] leading-[2.5rem]">
-                    <a href='#' className='link hover:no-underline block text-blue-500 laptop:w-[35%] w-[85%]'>GUARDIAN mini ROV Specification</a>
-                    <a className='link hover:no-underline block text-blue-500 laptop:w-[21%] w-[60%]'>SeaEye FALCON ROV</a>
-                    <a className='link hover:no-underline block text-blue-500 laptop:w-[27%] w-[63%]'>Sub Atlantic MOJAVE ROV</a>
-                    <a className='link hover:no-underline block text-blue-500 laptop:w-[13%] w-[35%]'>Turtuga ROV</a>
-                    <a className='link hover:no-underline block text-blue-500 laptop:w-[22%] w-[55%]'>Inuktun MaggHD ROV</a>
+                    <a href='' target='_blank' className='link hover:no-underline block text-blue-500 laptop:w-[35%] w-[85%]'>GUARDIAN mini ROV Specification</a>
+                    <a href='' target='_blank' className='link hover:no-underline block text-blue-500 laptop:w-[21%] w-[60%]'>SeaEye FALCON ROV</a>
+                    <a href='' target='_blank' className='link hover:no-underline block text-blue-500 laptop:w-[27%] w-[63%]'>Sub Atlantic MOJAVE ROV</a>
+                    <a href='' target='_blank' className='link hover:no-underline block text-blue-500 laptop:w-[13%] w-[35%]'>Turtuga ROV</a>
+                    <a href='' target='_blank' className='link hover:no-underline block text-blue-500 laptop:w-[22%] w-[55%]'>Inuktun MaggHD ROV</a>
                   </p>
                 </div>
               </div>
