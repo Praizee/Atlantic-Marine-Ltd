@@ -10,6 +10,6 @@ bottom: 40px;
 font-size: 3rem;
 z-index: 1;
 cursor: pointer;
-color: white;
+color: #B7D2D2;
 transform: scale(0.7);
 `
