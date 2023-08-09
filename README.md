@@ -1,7 +1,6 @@
 # Atlantic-marine </br>
 
-<img src="src/assets/logo.jpg" width="40%">
-
+<img src="./src/assets/AtlanticLogo.png" width="40%" alt="logo">
 
 <p>
 Atlantic Marine & Oilfield Services is a Subsea Engineering - Diving Company since 1999. She is an ISO 9001-2015. Atlantic Marine is also an ABS, Bureau Veritas, and Lloyds Class In–Water Survey Company.
