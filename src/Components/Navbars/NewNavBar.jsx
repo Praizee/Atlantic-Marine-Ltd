@@ -43,7 +43,7 @@ const NewNavBar = () => {
                                     leaveTo="transform opacity-0 scale-95"
                                 >
 
-                                    <Menu.Items tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[9999] absolute p-2 shadow bg-black rounded-box w-52">
+                                    <Menu.Items tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-black rounded-box w-52">
                                         {NavbarData.map((item, index) => {
                                             return (
                                                 <Menu.Item key={index} className={item.className}>
