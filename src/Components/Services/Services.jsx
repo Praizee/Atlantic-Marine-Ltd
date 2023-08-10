@@ -25,7 +25,7 @@ const Services = () => {
 
                   <img src={HeroImage} className="laptop:hidden block max-w-sm mt-8 rounded-lg laptop:w-[40%] w-full mx-auto shadow-2xl laptop:float-right" />
 
-                  <p className="pb-2 pt-6 mt-4 font-notbold laptop:max-w-[80%] laptop:pr-4 leading-[2.5rem]">
+                  <p className="pb-2 pt-6 mt-4 font-notbold laptop:max-w-[80%] laptop:pr-4 leading-[1.5rem]">
                     Atlantic Marine can display its complete ownership of a fleet of five (5nos) inspection class ROVs. From Subsea Tech mini Guardian ROV to the Turtuga ROV, SeaEye FALCON with its accompanying Zone 2 rated control van and the Sub Atlantic MOJAVE with a 10ft control van including the Inuktun MaggHD Crawler. All five ROVs can be used for a variety of offshore operations including diver observation, diverless UWILD and general inspection of offshore platforms, pipelines and FPSOs.
                   </p>
 
