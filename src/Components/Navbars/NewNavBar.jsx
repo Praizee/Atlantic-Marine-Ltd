@@ -9,7 +9,7 @@ import AtlanticLogo from "../../assets/AtlanticLogo.png"
 const NewNavBar = () => {
     return (
         <main id="">
-            <div className="flex laptop:hidden smaller:flex tablet:hidden fixed z-[1] top-0">
+            <div className="flex laptop:hidden smaller:flex w-full tablet:hidden fixed z-[1] top-0">
                 {/* <a className="btn btn-ghost normal-case text-xl">
                     <img className="web-logo" src={AtlanticLogo} alt="web Logo" />
                 </a> */}
@@ -48,7 +48,7 @@ const NewNavBar = () => {
                             </ul>
                         </div>
                         <a className="btn btn-ghost normal-case text-xl w-full -mr-5">
-                            <img className="w-full" src={AtlanticLogo} alt="web Logo" />
+                            <img className="w-full tablet:w-[60%] laptop:w-[20%] smaller:w-[80%]" src={AtlanticLogo} alt="web Logo" />
                         </a>
                     </div>
 
@@ -63,17 +63,6 @@ const NewNavBar = () => {
 
                 </div>
                 {/* end of navbar */}
-
-                {/* contact button -unused */}
-                <Link to="/contact" className="hidden">
-                    <button className="btn rounded-md bg-[#305D96] hover:bg-[#204476] text-slate-100">
-                        Contact
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                        </svg>
-
-                    </button>
-                </Link>
 
             </div>
         </main>
