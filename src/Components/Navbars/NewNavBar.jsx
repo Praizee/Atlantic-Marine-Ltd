@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { NavbarData } from "./NavbarData"
 import AtlanticLogo from "../../assets/AtlanticLogo.png"
-// import '@coreui/coreui/dist/css/coreui.min.css'
+import '@coreui/coreui/dist/css/coreui.min.css'
 // import { BiEnvelope } from "react-icons/bi";
 // import "./Navbar.css";
 
