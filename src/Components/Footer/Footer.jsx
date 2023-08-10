@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <div className="footer-items bg-[#893232] text-slate-100  laptop:px-16">
-      <footer className="footer p-10 leading-[1rem]">
+      <footer className="footer bg-[#893232] text-slate-100 p-10 leading-[1rem]">
         {/* border-b-[2px] */}
 
         <div className="">
