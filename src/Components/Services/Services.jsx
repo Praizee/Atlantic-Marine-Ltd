@@ -16,7 +16,7 @@ const Services = () => {
               <div className="hero-content flex-col lg:flex-row-reverse">
 
                 <div>
-                  <img src={HeroImage} className="hidden laptop:block max-w-sm  rounded-lg laptop:w-[50%] w-full mx-auto shadow-2xl laptop:float-right" />
+                  <img src={HeroImage} className="hidden laptop:block max-w-sm rounded-lg laptop:w-[50%] w-full mx-auto shadow-2xl laptop:float-right" />
 
                   <span className='flex'>
                     <img src={Rectangle} alt='red-rectangle' className='mr-2 float-right' />
