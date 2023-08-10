@@ -1,9 +1,16 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { NavbarData } from "./NavbarData"
 import AtlanticLogo from "../../assets/AtlanticLogo.png"
+import { Menu, Transition } from '@headlessui/react'
+
 // import { BiEnvelope } from "react-icons/bi";
 // import "./Navbar.css";
+
+function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
+}
+
 
 const NewNavBar = () => {
     return (
@@ -18,24 +25,38 @@ const NewNavBar = () => {
                     <div className="navbar-start">
 
                         <div className="dropdown">
-                            {/* 'hamburger' icon */}
-                            <label tabIndex={0} className="btn btn-ghost lg:hidden flex">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 -ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                            </label>
-                            {/* end of icon */}
+                            <Menu as="div" className="relative inline-block text-left">
 
-                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[9999] absolute p-2 shadow bg-black rounded-box w-52">
-                                {NavbarData.map((item, index) => {
-                                    return (
-                                        <li key={index} className={item.className}>
-                                            <Link to={item.path} className="">
-                                                <span className="">{item.title}</span>
-                                                <span className="">{item.icon}</span>
-                                            </Link>
-                                        </li>
-                                    );
-                                })}
-                            </ul>
+                                {/* 'hamburger' icon */}
+                                <Menu.Button tabIndex={0} className="btn btn-ghost lg:hidden flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 -ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                                </Menu.Button>
+                                {/* end of icon */}
+
+                                <Transition
+                                    as={Fragment}
+                                    enter="transition ease-out duration-100"
+                                    enterFrom="transform opacity-0 scale-95"
+                                    enterTo="transform opacity-100 scale-100"
+                                    leave="transition ease-in duration-75"
+                                    leaveFrom="transform opacity-100 scale-100"
+                                    leaveTo="transform opacity-0 scale-95"
+                                >
+
+                                    <Menu.Items tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[9999] absolute p-2 shadow bg-black rounded-box w-52">
+                                        {NavbarData.map((item, index) => {
+                                            return (
+                                                <Menu.Item key={index} className={item.className}>
+                                                    <Link to={item.path} className="">
+                                                        <span className="">{item.title}</span>
+                                                        <span className="">{item.icon}</span>
+                                                    </Link>
+                                                </Menu.Item>
+                                            );
+                                        })}
+                                    </Menu.Items>
+                                </Transition>
+                            </Menu>
                         </div>
                         <a className="btn btn-ghost normal-case text-xl w-full -mr-5">
                             <img className="w-full tablet:w-[60%] laptop:w-[20%] smaller:w-[80%]" src={AtlanticLogo} alt="web Logo" />
