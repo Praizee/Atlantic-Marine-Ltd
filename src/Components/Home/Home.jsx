@@ -12,10 +12,12 @@ const Home = () => {
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={HeroImage} className="max-w-sm rounded-sm shadow-2xl" />
             <div>
+
               <span className='flex'>
                 <img src={Rectangle} alt='red-rectangle' className='mr-2' />
                 <h1 className="text-5xl font-bold">ROV & Robotics</h1>
               </span>
+
               <p className="py-6">
                 Diver observation, diverless UWILD, and general inspection <br />
                 of offshore platforms, pipelines, and FPSOs are all major <br />
