@@ -38,7 +38,7 @@ const Contact = () => {
           {/* END OF FORM SECTION */}
 
           {/* ADDRESS SECTION */}
-          <div className="laptop:float-right laptop:mx-[2rem]">
+          <div className="laptop:float-right laptop:mx-[2rem] mt-[3rem] laptop:mt-0">
             <div className="mb-2">
               <span className="uppercase font-bold">Contact(s)</span>
               <a className="block">+234 (0) 803 465 7847</a>
