@@ -123,7 +123,7 @@ const AboutUs = () => {
           {/* END OF LATEST NEWS */}
 
           {/* MANAGEMENT SECTION */}
-          <div className="laptop:mx-[8.7rem]">
+          <div className="mt-8 laptop:w-[77%]">
             <span className="flex mb-6">
               <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
               <h1 className="text-3xl font-bold">Managements</h1>
@@ -141,6 +141,34 @@ const AboutUs = () => {
                 sed quia non numquam eius modi
               </p>
               <img src={Humphrey1} className="laptop:max-w-[27rem] laptop:flex hidden rounded-sm shadow-2xl" />
+            </div>
+
+            <div className="laptop:">
+              <img src={Humphrey2} className="laptop:max-w-sm mb-4 laptop:hidden rounded-sm shadow-2xl" />
+              <h1 className="text-2xl py-2 font-bold">Mr Anthony Prosper-Oguns</h1>
+              <h4 className="text-[1.2rem] text-[#D52125] font-bold">Executive Director</h4>
+              <p className="py-1 leading-8 laptop:leading-7 w-full">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, <br className="hidden laptop:block" />
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam <br className="hidden laptop:block" />
+                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione <br className="hidden laptop:block" />
+                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, <br className="hidden laptop:block" />
+                sed quia non numquam eius modi
+              </p>
+              <img src={Humphrey2} className="laptop:max-w-[27rem] laptop:flex hidden rounded-sm shadow-2xl" />
+            </div>
+
+            <div className="laptop:">
+              <img src={Prosper} className="laptop:max-w-sm mb-4 laptop:hidden rounded-sm shadow-2xl" />
+              <h1 className="text-2xl py-2 font-bold">Mr Humphrey Iyimen</h1>
+              <h4 className="text-[1.2rem] text-[#D52125] font-bold">Project Manager</h4>
+              <p className="py-1 leading-8 laptop:leading-7 w-full">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, <br className="hidden laptop:block" />
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam <br className="hidden laptop:block" />
+                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione <br className="hidden laptop:block" />
+                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, <br className="hidden laptop:block" />
+                sed quia non numquam eius modi
+              </p>
+              <img src={Prosper} className="laptop:max-w-[27rem] laptop:flex hidden rounded-sm shadow-2xl" />
             </div>
 
           </div>
