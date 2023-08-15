@@ -10,7 +10,7 @@ const Home = () => {
       <div>
 
         {/* HERO SECTION */}
-        <div className="hero min-h-screen bg-base-200 mt-[5rem]">
+        <div className="hero min-h-screen bg-base-200 mt-[5rem] text-[#010037]">
           <div className="hero-content flex-col lg:flex-row-reverse">
 
             <img src={HeroImage} className="laptop:max-w-sm laptop:hidden rounded-sm shadow-2xl" />
