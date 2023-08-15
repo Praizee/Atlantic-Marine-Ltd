@@ -46,7 +46,7 @@ const AboutUs = () => {
 
             </div>
 
-            <img src={HeroImage} className="laptop:max-w-[26rem] laptop:flex laptop:float-right hidden rounded-sm shadow-2xl" />
+            <img src={HeroImage} className="laptop:max-w-[26rem] mt-[4rem] laptop:flex laptop:float-right hidden rounded-sm shadow-2xl" />
           </div>
         </div>
       </div>
