@@ -23,7 +23,6 @@ const AboutUs = () => {
               </span>
 
               <span className="py-6 leading-8 laptop:leading-7 w-full">
-
                 <p className="mb-4 laptop:mb-3">
                   Atlantic Marine & Oilfield Services is a Subsea Engineering - Diving <br className="hidden laptop:block" />
                   Company since 1999. She is an ISO 9001-2015. Atlantic Marine is also an <br className="hidden laptop:block" />
