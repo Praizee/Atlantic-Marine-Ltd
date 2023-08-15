@@ -22,7 +22,7 @@ const AboutUs = () => {
                 <h1 className="text-3xl font-bold">About Us</h1>
               </span>
 
-              <p className="py-6 leading-8 laptop:leading-7 w-full">
+              <span className="py-6 leading-8 laptop:leading-7 w-full">
 
                 <p className="mb-4 laptop:mb-3">
                   Atlantic Marine & Oilfield Services is a Subsea Engineering - Diving <br className="hidden laptop:block" />
@@ -46,7 +46,7 @@ const AboutUs = () => {
                   Atlantic Marine has its head office in Lagos Nigeria, a Yard base in <br className="hidden laptop:block" />
                   Portharcourt Nigeria and a satellite office in Accra Ghana.
                 </p>
-              </p>
+              </span>
 
             </div>
 
