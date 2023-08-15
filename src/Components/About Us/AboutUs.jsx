@@ -85,11 +85,11 @@ const AboutUs = () => {
             </span>
 
             <h1 className="text-2xl font-bold">Atlantic Marine won Company of the year</h1>
-            <p className="py-4 leading-2 w-full">
+            <p className="pt-4 leading-2 w-full">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in fusce purus sed. Et tellus, laoreet in lorem ac cras non purus tortor. Placerat sed non a justo, pellentesque ac. Donec quam ac massa, egestas arcu. Sed velit aliquam vel aliquam quis placerat. Vitae congue pellentesque fringilla proin sit sollicitudin ornare nunc. Tincidunt ipsum, pellentesque in eu egestas est.
             </p>
 
-            <button className="btn rounded-none normal-case bg-inherit hover:bg-inherit border-none text-[#204476]">
+            <button className="btn p-0 rounded-none normal-case bg-inherit hover:bg-inherit border-none text-[#204476]">
               Learn More
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10 6L8.59 7.41L13.17 12L8.59 16.59L10 18L16 12L10 6Z" fill="#204476" />
@@ -98,11 +98,11 @@ const AboutUs = () => {
 
             {/* NEWS II */}
             <h1 className="text-2xl font-bold">Atlantic Marine won Company of the year</h1>
-            <p className="py-4 leading-2 w-full">
+            <p className="pt-4 leading-2 w-full">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in fusce purus sed. Et tellus, laoreet in lorem ac cras non purus tortor. Placerat sed non a justo, pellentesque ac. Donec quam ac massa, egestas arcu. Sed velit aliquam vel aliquam quis placerat. Vitae congue pellentesque fringilla proin sit sollicitudin ornare nunc. Tincidunt ipsum, pellentesque in eu egestas est.
             </p>
 
-            <button className="btn rounded-none normal-case bg-inherit hover:bg-inherit border-none text-[#204476]">
+            <button className="btn p-0 rounded-none normal-case bg-inherit hover:bg-inherit border-none text-[#204476]">
               Learn More
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10 6L8.59 7.41L13.17 12L8.59 16.59L10 18L16 12L10 6Z" fill="#204476" />
