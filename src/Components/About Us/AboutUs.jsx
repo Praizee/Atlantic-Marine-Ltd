@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className="">
         <div className="hero-content flex-col lg:flex-row-reverse mt-[6rem]">
 
-          <img src={HeroImage} className="laptop:max-w-sm w-full laptop:hidden rounded-sm shadow-2xl" />
+          <img src={HeroImage} className="laptop:max-w-sm laptop:hidden rounded-sm shadow-2xl" />
 
           <div className="flex">
             <div className="laptop:px-8 mt-4 laptop:mt-0">
@@ -18,36 +18,35 @@ const AboutUs = () => {
                 <h1 className="text-3xl font-bold">About Us</h1>
               </span>
 
-              <p className="py-6 leading-8 w-full">
+              <p className="py-6 leading-8 laptop:leading-7 w-full">
 
-                <p className="mb-4">
-                  Atlantic Marine & Oilfield Services is a Subsea Engineering - Diving <br />
-                  Company since 1999. She is an ISO 9001-2015. Atlantic Marine is also an <br />
+                <p className="mb-4 laptop:mb-3">
+                  Atlantic Marine & Oilfield Services is a Subsea Engineering - Diving <br className="hidden laptop:block" />
+                  Company since 1999. She is an ISO 9001-2015. Atlantic Marine is also an <br className="hidden laptop:block" />
                   ABS, Bureau Veritas, and Lloyds Class In–Water Survey Company.
                 </p>
                 {/* <p className="laptop:w-[60%] mb-4"> */}
-                <p className="mb-4">
-                  Atlantic Marine is fully equipped with Classed Air Dive Spread Equipment, <br />
-                  Inspection Class ROV’s, Robot-aided Subsea Engineering Tooling and <br />
-                  Equipment, Zone 2 Offshore Work Containers, Divers Launch and Recovery <br />
+                <p className="mb-4 laptop:mb-3">
+                  Atlantic Marine is fully equipped with Classed Air Dive Spread Equipment, <br className="hidden laptop:block" />
+                  Inspection Class ROV’s, Robot-aided Subsea Engineering Tooling and <br className="hidden laptop:block" />
+                  Equipment, Zone 2 Offshore Work Containers, Divers Launch and Recovery <br className="hidden laptop:block" />
                   Spread and Subsea Inspection, Construction and Welding Equipment.
                 </p>
-
-                <p className="mb-4">
-                  And with the recent purpose built LightDiveBoat (LDB) acquisution, MV. <br />
-                  Eghenoflorence, Atlanticmarine can mobilise on very short notice for most <br />
+                <p className="mb-4 laptop:mb-3">
+                  And with the recent purpose built LightDiveBoat (LDB) acquisution, MV. <br className="hidden laptop:block" />
+                  Eghenoflorence, Atlanticmarine can mobilise on very short notice for most <br className="hidden laptop:block" />
                   dive operations.
                 </p>
 
-                <p className="mb-4">
-                  Atlantic Marine has its head office in Lagos Nigeria, a Yard base in <br />
+                <p className="mb-4 laptop:mb-3">
+                  Atlantic Marine has its head office in Lagos Nigeria, a Yard base in <br className="hidden laptop:block" />
                   Portharcourt Nigeria and a satellite office in Accra Ghana.
                 </p>
               </p>
 
             </div>
 
-            <img src={HeroImage} className="laptop:max-w-sm laptop:flex laptop:float-right hidden rounded-sm shadow-2xl" />
+            <img src={HeroImage} className="laptop:max-w-[26rem] laptop:flex laptop:float-right hidden rounded-sm shadow-2xl" />
           </div>
         </div>
       </div>
