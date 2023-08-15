@@ -30,7 +30,7 @@ const Contact = () => {
             <form onSubmit={handleSubmit} className="bg-[#BDBDBD] w-full">
 
 
-              <button type='submit' className="btn capitalize font-notbold overflow-y-hidden laptop:py-1 ml-10 rounded-md bg-[#305D96] hover:bg-[#204476] text-slate-100 hover:text-slate-100">
+              <button type='submit' className="btn capitalize font-notbold overflow-y-hidden laptop:py-1 ml-10 rounded-md border-none bg-[#305D96] hover:bg-[#204476] text-slate-100 hover:text-slate-100">
                 Send
               </button>
             </form>
