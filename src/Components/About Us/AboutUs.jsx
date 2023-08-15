@@ -157,7 +157,7 @@ const AboutUs = () => {
               <img src={Humphrey2} className="laptop:max-w-[27rem] laptop:flex hidden rounded-sm shadow-2xl" />
             </div>
 
-            <div className="laptop:">
+            <div className="laptop: mb-8">
               <img src={Prosper} className="laptop:max-w-sm mb-4 laptop:hidden rounded-sm shadow-2xl" />
               <h1 className="text-2xl py-2 font-bold">Mr Humphrey Iyimen</h1>
               <h4 className="text-[1.2rem] text-[#D52125] font-bold">Project Manager</h4>
