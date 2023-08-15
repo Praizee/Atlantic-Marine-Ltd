@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="mb-3">
             <span className='flex mb-6'>
               <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
-              <h1 className="text-3xl font-bold">About Us</h1>
+              <h1 className="text-3xl font-bold">Contact Us</h1>
             </span>
 
             <h1 className="text-2xl font-bold">Send us a message</h1>
