@@ -6,7 +6,7 @@ const Contact = () => {
     <section>
 
       <div className="text-[#010037]">
-        <div className="mt-[6rem] laptop:mx-[8.7rem]">
+        <div className="mt-[6rem] laptop:mx-[8.7rem] mx-[2rem]">
           {/* hero-content flex-col lg:flex-row-reverse mt-[6rem] */}
 
           {/* FORM SECTION */}
