@@ -20,6 +20,8 @@ const Contact = () => {
 
             <form>
 
+
+
               {/* <button onClick={handleClick} className="btn capitalize font-notbold overflow-y-hidden laptop:py-1 ml-10 rounded-md bg-[#305D96] hover:bg-[#204476] text-slate-100 hover:text-slate-100">
               Send
             </button> */}
