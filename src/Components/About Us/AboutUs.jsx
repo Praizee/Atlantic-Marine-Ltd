@@ -19,30 +19,32 @@ const AboutUs = () => {
               </span>
 
               <p className="py-6 leading-8 w-full">
-                {/* <br /> */}
-                <p>
-                  Atlantic Marine & Oilfield Services is a Subsea Engineering - Diving Company since 1999. She is an ISO 9001-2015. Atlantic Marine is also an ABS, Bureau Veritas, and Lloyds Class In–Water Survey Company.
+
+                <p className="mb-4">
+                  Atlantic Marine & Oilfield Services is a Subsea Engineering - Diving <br />
+                  Company since 1999. She is an ISO 9001-2015. Atlantic Marine is also an <br />
+                  ABS, Bureau Veritas, and Lloyds Class In–Water Survey Company.
+                </p>
+                {/* <p className="laptop:w-[60%] mb-4"> */}
+                <p className="mb-4">
+                  Atlantic Marine is fully equipped with Classed Air Dive Spread Equipment, <br />
+                  Inspection Class ROV’s, Robot-aided Subsea Engineering Tooling and <br />
+                  Equipment, Zone 2 Offshore Work Containers, Divers Launch and Recovery <br />
+                  Spread and Subsea Inspection, Construction and Welding Equipment.
                 </p>
 
-                <p>
-                  Atlantic Marine is fully equipped with Classed Air Dive Spread Equipment, Inspection Class ROV’s, Robot-aided Subsea Engineering Tooling and Equipment, Zone 2 Offshore Work Containers, Divers Launch and Recovery Spread and Subsea Inspection, Construction and Welding Equipment.
+                <p className="mb-4">
+                  And with the recent purpose built LightDiveBoat (LDB) acquisution, MV. <br />
+                  Eghenoflorence, Atlanticmarine can mobilise on very short notice for most <br />
+                  dive operations.
                 </p>
 
-                <p>
-                  And with the recent purpose built LightDiveBoat (LDB) acquisution, MV. Eghenoflorence, Atlanticmarine can mobilise on very short notice for most dive operations.
+                <p className="mb-4">
+                  Atlantic Marine has its head office in Lagos Nigeria, a Yard base in <br />
+                  Portharcourt Nigeria and a satellite office in Accra Ghana.
                 </p>
-
-                <p>
-                  Atlantic Marine has its head office in Lagos Nigeria, a Yard base in Portharcourt Nigeria and a satellite office in Accra Ghana.
-                </p>
-
               </p>
-              <button className="btn rounded-none hover:bg-[#204476] bg-[#305D96] text-slate-100">
-                View Details
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M10 6L8.59 7.41L13.17 12L8.59 16.59L10 18L16 12L10 6Z" fill="white" />
-                </svg>
-              </button>
+
             </div>
 
             <img src={HeroImage} className="laptop:max-w-sm laptop:flex laptop:float-right hidden rounded-sm shadow-2xl" />
