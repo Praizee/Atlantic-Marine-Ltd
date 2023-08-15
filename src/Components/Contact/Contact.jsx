@@ -12,9 +12,11 @@ const Contact = () => {
     <section>
 
       <div className="text-[#010037]">
-        <div className="mt-[6rem] laptop:mx-[8.7rem] mx-[2rem] laptop:flex">
+
+        <img src={Header} className="w-full mt-[5rem]" />
+
+        <div className="mt-[3rem] laptop:mx-[8.7rem] mx-[2rem] laptop:flex">
           {/* hero-content flex-col lg:flex-row-reverse mt-[6rem] */}
-          <img src={Header} className="w-full " />
 
           {/* FORM SECTION */}
           <div className="mb-3 laptop:mx-[2rem]">
