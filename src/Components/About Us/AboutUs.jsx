@@ -1,6 +1,6 @@
 import React from 'react'
 import Rectangle from "../../assets/Rectangle 19.png"
-import HeroImage from "../../assets/image 1.png"
+import HeroImage from "../../assets/about-us-flipped.jpeg"
 
 const AboutUs = () => {
   return (
@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className="">
         <div className="hero-content flex-col lg:flex-row-reverse mt-[6rem]">
 
-          <img src={HeroImage} className="laptop:max-w-sm laptop:hidden rounded-sm shadow-2xl" />
+          <img src={HeroImage} className="laptop:max-w-sm w-full laptop:hidden rounded-sm shadow-2xl" />
 
           <div className="flex">
             <div className="laptop:px-8 mt-4 laptop:mt-0">
