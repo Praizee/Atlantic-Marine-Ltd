@@ -17,7 +17,7 @@ const AboutUs = () => {
 
           <div className="flex">
             <div className="laptop:px-8 mt-4 laptop:mt-0">
-              <span className='flex'>
+              <span className='flex mb-6'>
                 <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
                 <h1 className="text-3xl font-bold">About Us</h1>
               </span>
@@ -53,14 +53,14 @@ const AboutUs = () => {
           </div>
 
           {/* MISSION AND VISION */}
-          <div className="laptop:flex block py-8">
+          <div className="laptop:flex block py-6">
 
             <div className="laptop:mx-[8.7rem]">
               <span className='flex'>
                 <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
                 <h1 className="text-3xl font-bold">Our Mission</h1>
               </span>
-              <p className="py-6 leading-8 w-full">
+              <p className="py-2 leading-8 w-full">
                 To develop execptional values to our clients in the areas of subsea Engineering,
                 Diver Intervention and ROV & Robotics
               </p>
@@ -71,7 +71,7 @@ const AboutUs = () => {
                 <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
                 <h1 className="text-3xl font-bold">Our Vision</h1>
               </span>
-              <p className="py-6 leading-8 w-full">
+              <p className="py-2 leading-8 w-full">
                 To develop a dynamic and successful company that provides innivative and quality
                 service delivery in engineering and procurement in the Nigeria Oil and Gas Industry.
               </p>
@@ -80,7 +80,7 @@ const AboutUs = () => {
           {/* END OF MISSION AND VISION */}
 
           {/* LATEST NEWS */}
-          <div className="laptop:mx-[8.7rem]">
+          <div className="laptop:mx-[8.7rem] py-3">
             <span className="flex mb-6">
               <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
               <h1 className="text-3xl font-bold">Latest News</h1>
@@ -122,7 +122,7 @@ const AboutUs = () => {
           {/* END OF LATEST NEWS */}
 
           {/* MANAGEMENT SECTION */}
-          <div className="mt-8 laptop:w-[77%]">
+          <div className="my-4 laptop:w-[77%]">
             <span className="flex mb-6">
               <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
               <h1 className="text-3xl font-bold">Managements</h1>
