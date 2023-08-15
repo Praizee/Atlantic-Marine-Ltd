@@ -1,3 +1,4 @@
+//<br className="hidden laptop:block" />
 import React from 'react'
 import Rectangle from "../../assets/Rectangle 19.png"
 import HeroImage from "../../assets/about-us-flipped.jpeg"
@@ -46,8 +47,35 @@ const AboutUs = () => {
 
             </div>
 
-            <img src={HeroImage} className="laptop:max-w-[26rem] mt-[4rem] laptop:flex laptop:float-right hidden rounded-sm shadow-2xl" />
+            <img src={HeroImage} className="laptop:max-w-[27rem] mt-[4rem] laptop:flex laptop:float-right hidden rounded-sm shadow-2xl" />
           </div>
+
+          {/* MISSION AND VISION */}
+          <div className="laptop:flex block py-8">
+
+            <div className="laptop:mx-[5.5rem]">
+              <span className='flex'>
+                <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
+                <h1 className="text-3xl font-bold">Our Mission</h1>
+              </span>
+              <p className="py-6 leading-8 w-full">
+                To develop execptional values to our clients in the areas of subsea Engineering, Diver Intervention and ROV & Robotics
+
+              </p>
+            </div>
+
+            <div className="laptop:mx-14">
+              <span className='flex'>
+                <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
+                <h1 className="text-3xl font-bold">Our Vision</h1>
+              </span>
+              <p className="py-6 leading-8 w-full">
+                To develop a dynamic and successful company that provides innivative and quality service delivery in engineering and procurement in the Nigeria Oil and Gas Industry.
+              </p>
+            </div>
+          </div>
+          {/* END OF MISSION AND VISION */}
+
         </div>
       </div>
 
