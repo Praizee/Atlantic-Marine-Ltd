@@ -89,10 +89,10 @@ const AboutUs = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in fusce purus sed. Et tellus, laoreet in lorem ac cras non purus tortor. Placerat sed non a justo, pellentesque ac. Donec quam ac massa, egestas arcu. Sed velit aliquam vel aliquam quis placerat. Vitae congue pellentesque fringilla proin sit sollicitudin ornare nunc. Tincidunt ipsum, pellentesque in eu egestas est.
             </p>
 
-            <button className="btn rounded-none hover:bg-[#204476] bg-[#305D96] text-slate-100">
+            <button className="btn rounded-none normal-case bg-inherit hover:bg-inherit border-none">
               View Details
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10 6L8.59 7.41L13.17 12L8.59 16.59L10 18L16 12L10 6Z" fill="white" />
+                <path d="M10 6L8.59 7.41L13.17 12L8.59 16.59L10 18L16 12L10 6Z" fill="black" />
               </svg>
             </button>
 
@@ -102,10 +102,10 @@ const AboutUs = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in fusce purus sed. Et tellus, laoreet in lorem ac cras non purus tortor. Placerat sed non a justo, pellentesque ac. Donec quam ac massa, egestas arcu. Sed velit aliquam vel aliquam quis placerat. Vitae congue pellentesque fringilla proin sit sollicitudin ornare nunc. Tincidunt ipsum, pellentesque in eu egestas est.
             </p>
 
-            <button className="btn rounded-none hover:bg-[#204476] bg-[#305D96] text-slate-100">
+            <button className="btn rounded-none normal-case bg-inherit hover:bg-inherit border-none">
               View Details
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10 6L8.59 7.41L13.17 12L8.59 16.59L10 18L16 12L10 6Z" fill="white" />
+                <path d="M10 6L8.59 7.41L13.17 12L8.59 16.59L10 18L16 12L10 6Z" fill="black" />
               </svg>
             </button>
 
