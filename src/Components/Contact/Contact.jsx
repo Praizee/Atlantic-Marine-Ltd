@@ -5,7 +5,9 @@ const Contact = () => {
   return (
     <section>
 
-      <div className=""></div>
+      <div className="text-[#010037]">
+
+      </div>
 
     </section>
   )
