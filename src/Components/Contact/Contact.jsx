@@ -1,5 +1,6 @@
 import React from 'react'
 import Rectangle from "../../assets/Rectangle 19.png"
+import Header from "../../assets/clients-header.png"
 
 const Contact = () => {
   const handleSubmit = (e) => {
@@ -13,6 +14,7 @@ const Contact = () => {
       <div className="text-[#010037]">
         <div className="mt-[6rem] laptop:mx-[8.7rem] mx-[2rem] laptop:flex">
           {/* hero-content flex-col lg:flex-row-reverse mt-[6rem] */}
+          <img src={Header} className="w-full " />
 
           {/* FORM SECTION */}
           <div className="mb-3 laptop:mx-[2rem]">
