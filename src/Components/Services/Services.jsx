@@ -7,7 +7,7 @@ const Services = () => {
     <section>
 
       <div className="">
-        <div className="laptop:px-16 bg-base-200">
+        <div className="laptop:px-16 bg-base-200 text-[#010037]">
 
           <div className="laptop:mt-[7rem] mt-[5rem] mx-4 ">
             {/* laptop:mx-[8rem] */}
