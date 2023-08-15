@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <section>
 
-      <div className="">
+      <div className="text-[#010037]">
         <div className="hero-content flex-col lg:flex-row-reverse mt-[6rem]">
 
           <img src={HeroImage} className="laptop:max-w-sm laptop:hidden rounded-sm shadow-2xl" />
@@ -84,7 +84,10 @@ const AboutUs = () => {
               <h1 className="text-3xl font-bold">Latest News</h1>
             </span>
 
-            <h1 className="text-2xl font-bold">Atlantic Marine won Company of the year</h1>
+            <div className="laptop:flex">
+              <h1 className="text-2xl font-bold">Atlantic Marine won Company of the year</h1>
+              <span className="laptop:ml-[23rem]">October 12, 2022</span>
+            </div>
             <p className="pt-4 leading-2 w-full">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in fusce purus sed. Et tellus, laoreet in lorem ac cras non purus tortor. Placerat sed non a justo, pellentesque ac. Donec quam ac massa, egestas arcu. Sed velit aliquam vel aliquam quis placerat. Vitae congue pellentesque fringilla proin sit sollicitudin ornare nunc. Tincidunt ipsum, pellentesque in eu egestas est.
             </p>
@@ -97,8 +100,11 @@ const AboutUs = () => {
             </button>
 
             {/* NEWS II */}
-            <h1 className="text-2xl font-bold">Atlantic Marine won Company of the year</h1>
-            <span>October 12, 2022</span>
+            <div className="laptop:flex">
+              <h1 className="text-2xl font-bold">Atlantic Marine won Company of the year</h1>
+              <span className="laptop:ml-[23rem]">October 12, 2022</span>
+            </div>
+
             <p className="pt-4 leading-2 w-full">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in fusce purus sed. Et tellus, laoreet in lorem ac cras non purus tortor. Placerat sed non a justo, pellentesque ac. Donec quam ac massa, egestas arcu. Sed velit aliquam vel aliquam quis placerat. Vitae congue pellentesque fringilla proin sit sollicitudin ornare nunc. Tincidunt ipsum, pellentesque in eu egestas est.
             </p>
