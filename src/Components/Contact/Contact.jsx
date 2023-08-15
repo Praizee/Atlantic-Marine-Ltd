@@ -28,7 +28,7 @@ const Contact = () => {
           {/* END OF FORM SECTION */}
 
           {/* ADDRESS SECTION */}
-          <div className="float-right">
+          <div className="laptop:float-right">
             <div className="mb-2">
               <span className="uppercase font-bold">Contact(s)</span>
               <a className="block">+234 (0) 803 465 7847</a>
