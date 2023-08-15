@@ -98,6 +98,7 @@ const AboutUs = () => {
 
             {/* NEWS II */}
             <h1 className="text-2xl font-bold">Atlantic Marine won Company of the year</h1>
+            <span>October 12, 2022</span>
             <p className="pt-4 leading-2 w-full">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in fusce purus sed. Et tellus, laoreet in lorem ac cras non purus tortor. Placerat sed non a justo, pellentesque ac. Donec quam ac massa, egestas arcu. Sed velit aliquam vel aliquam quis placerat. Vitae congue pellentesque fringilla proin sit sollicitudin ornare nunc. Tincidunt ipsum, pellentesque in eu egestas est.
             </p>
