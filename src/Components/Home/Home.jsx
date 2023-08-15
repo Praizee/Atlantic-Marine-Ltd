@@ -6,7 +6,7 @@ import Rectangle from "../../assets/Rectangle 19.png"
 
 const Home = () => {
   return (
-    <section className="home">
+    <section className="">
       <div>
 
         {/* HERO SECTION */}
