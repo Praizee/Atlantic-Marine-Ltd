@@ -7,7 +7,7 @@ const QualityPolicy = () => {
     <section>
 
       <div className="laptop:px-16 bg-base-200">
-
+        {/* laptop:px-[13.5rem] */}
         <div className="laptop:mt-[7rem] mt-[5rem] mx-4 ">
           {/* laptop:mx-[8rem] */}
 
