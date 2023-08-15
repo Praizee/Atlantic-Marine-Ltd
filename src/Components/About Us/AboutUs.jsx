@@ -129,7 +129,7 @@ const AboutUs = () => {
               <h1 className="text-3xl font-bold">Managements</h1>
             </span>
 
-            <div className="laptop:">
+            <div className="laptop: mb-8">
               <img src={Humphrey1} className="laptop:max-w-sm mb-4 laptop:hidden rounded-sm shadow-2xl" />
               <h1 className="text-2xl py-2 font-bold">Mr Humphrey Okposo</h1>
               <h4 className="text-[1.2rem] text-[#D52125] font-bold">Managing Director</h4>
@@ -143,7 +143,7 @@ const AboutUs = () => {
               <img src={Humphrey1} className="laptop:max-w-[27rem] laptop:flex hidden rounded-sm shadow-2xl" />
             </div>
 
-            <div className="laptop:">
+            <div className="laptop: mb-8">
               <img src={Humphrey2} className="laptop:max-w-sm mb-4 laptop:hidden rounded-sm shadow-2xl" />
               <h1 className="text-2xl py-2 font-bold">Mr Anthony Prosper-Oguns</h1>
               <h4 className="text-[1.2rem] text-[#D52125] font-bold">Executive Director</h4>
