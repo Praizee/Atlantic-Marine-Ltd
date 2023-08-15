@@ -23,8 +23,8 @@ const Home = () => {
                 </span>
 
                 <p className="py-6 leading-8 w-full">
-                  Diver observation, diverless UWILD, and general inspection <br />
-                  of offshore platforms, pipelines, and FPSOs are all major <br />
+                  Diver observation, diverless UWILD, and general inspection <br className="hidden laptop:block" />
+                  of offshore platforms, pipelines, and FPSOs are all major <br className="hidden laptop:block" />
                   uses for our ROVs.
                 </p>
                 <button className="btn rounded-none hover:bg-[#204476] bg-[#305D96] text-slate-100">
