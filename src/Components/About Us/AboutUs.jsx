@@ -53,24 +53,25 @@ const AboutUs = () => {
           {/* MISSION AND VISION */}
           <div className="laptop:flex block py-8">
 
-            <div className="laptop:mx-[5.5rem]">
+            <div className="laptop:mx-[8.7rem]">
               <span className='flex'>
                 <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
                 <h1 className="text-3xl font-bold">Our Mission</h1>
               </span>
               <p className="py-6 leading-8 w-full">
-                To develop execptional values to our clients in the areas of subsea Engineering, Diver Intervention and ROV & Robotics
-
+                To develop execptional values to our clients in the areas of subsea Engineering,
+                Diver Intervention and ROV & Robotics
               </p>
             </div>
 
-            <div className="laptop:mx-14">
+            <div className="laptop:mr-[3rem] laptop:w-[80%]">
               <span className='flex'>
                 <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
                 <h1 className="text-3xl font-bold">Our Vision</h1>
               </span>
               <p className="py-6 leading-8 w-full">
-                To develop a dynamic and successful company that provides innivative and quality service delivery in engineering and procurement in the Nigeria Oil and Gas Industry.
+                To develop a dynamic and successful company that provides innivative and quality
+                service delivery in engineering and procurement in the Nigeria Oil and Gas Industry.
               </p>
             </div>
           </div>
