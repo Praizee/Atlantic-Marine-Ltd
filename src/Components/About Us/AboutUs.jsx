@@ -2,6 +2,9 @@
 import React from 'react'
 import Rectangle from "../../assets/Rectangle 19.png"
 import HeroImage from "../../assets/about-us-flipped.jpeg"
+import Humphrey1 from "../../assets/Humphrey-okposo.png.jpeg"
+import Humphrey2 from "../../assets/Humphrey-iyimen.png"
+import Prosper from "../../assets/Prosper-oguns.png"
 
 const AboutUs = () => {
   return (
