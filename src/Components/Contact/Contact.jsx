@@ -2,15 +2,20 @@ import React from 'react'
 import Rectangle from "../../assets/Rectangle 19.png"
 
 const Contact = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  }
+
+
   return (
     <section>
 
       <div className="text-[#010037]">
-        <div className="mt-[6rem] laptop:mx-[8.7rem] mx-[2rem]">
+        <div className="mt-[6rem] laptop:mx-[8.7rem] mx-[2rem] laptop:flex">
           {/* hero-content flex-col lg:flex-row-reverse mt-[6rem] */}
 
           {/* FORM SECTION */}
-          <div className="mb-3">
+          <div className="mb-3 laptop:mx-[2rem]">
             <span className='flex mb-6'>
               <img src={Rectangle} alt='red-rectangle' className='mr-2 w-[0.3rem]' />
               <h1 className="text-3xl font-bold">Contact Us</h1>
@@ -18,19 +23,18 @@ const Contact = () => {
 
             <h1 className="text-2xl font-bold">Send us a message</h1>
 
-            <form>
+            <form onSubmit={handleSubmit} className="bg-[#BDBDBD] w-full">
 
 
-
-              {/* <button onClick={handleClick} className="btn capitalize font-notbold overflow-y-hidden laptop:py-1 ml-10 rounded-md bg-[#305D96] hover:bg-[#204476] text-slate-100 hover:text-slate-100">
-              Send
-            </button> */}
+              <button type='submit' className="btn capitalize font-notbold overflow-y-hidden laptop:py-1 ml-10 rounded-md bg-[#305D96] hover:bg-[#204476] text-slate-100 hover:text-slate-100">
+                Send
+              </button>
             </form>
           </div>
           {/* END OF FORM SECTION */}
 
           {/* ADDRESS SECTION */}
-          <div className="laptop:float-right">
+          <div className="laptop:float-right laptop:mx-[2rem]">
             <div className="mb-2">
               <span className="uppercase font-bold">Contact(s)</span>
               <a className="block">+234 (0) 803 465 7847</a>
