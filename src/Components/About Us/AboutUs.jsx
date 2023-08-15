@@ -1,6 +1,6 @@
 import React from 'react'
 import Rectangle from "../../assets/Rectangle 19.png"
-import HeroImage from "../../assets/hero-image.jpg"
+import HeroImage from "../../assets/image 1.png"
 
 const AboutUs = () => {
   return (
