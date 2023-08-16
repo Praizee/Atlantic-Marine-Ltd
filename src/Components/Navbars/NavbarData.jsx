@@ -35,5 +35,11 @@ export const NavbarData = [
     path: "/quality-policy",
     icon: "",
     className: "nav-text",
-  }
+  },
+  // {
+  //   title: "Contact",
+  //   path: "/contact",
+  //   icon: "",
+  //   className: "laptop:hidden",
+  // }
 ];
