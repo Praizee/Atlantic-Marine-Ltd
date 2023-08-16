@@ -6,7 +6,7 @@ import AtlanticLogo from "../../assets/AtlanticLogo.png"
 // import "./Navbar.css";
 
 const NewNavBar = () => {
-    const [showNav, setshowNav] = useState(true)
+    const [showNav, setshowNav] = useState(false)
 
     // const showNav = () => {
     //     console.log('okay')
@@ -47,8 +47,8 @@ const NewNavBar = () => {
             </div>
 
             {/* navbar content */}
-            {showNav && <nav tabIndex={0} className="mt-[5rem] p-2 absolute h-full font-medium z-10 bg-[#893232] text-white rounded-box w-full">
-                <ul>
+            {showNav && <nav tabIndex={0} className="mt-[5rem] p-8 absolute h-auto font-medium text-[2rem] text-center z-10 bg-[#893232c7] text-white rounded-box w-full">
+                <ul className="overflow-hidden">
                     {NavbarData.map((item, index) => {
                         return (
                             <li key={index} className={item.className}>
