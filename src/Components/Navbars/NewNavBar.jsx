@@ -8,10 +8,10 @@ import AtlanticLogo from "../../assets/AtlanticLogo.png"
 const NewNavBar = () => {
     const [showNav, setshowNav] = useState(false)
 
-    // const showNav = () => {
-    //     console.log('okay')
-    //     setShowNav(true)
-    // }
+    const showNav = () => {
+        console.log('okay')
+        setShowNav(true)
+    }
     return (
         <main className="">
             <div className="flex laptop:hidden smaller:flex w-full tablet:hidden fixed z-[10] bg-white">
