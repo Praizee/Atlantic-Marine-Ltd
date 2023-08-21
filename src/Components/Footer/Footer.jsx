@@ -26,17 +26,17 @@ const Footer = () => {
 
         <div className="laptop:pt-28 tablet:pt-28 lg:pt-28">
           <span className="footer-title">Lagos office</span>
-          <a className="">YMCA House,</a>
-          <a className="">1st Floor, 77, Awolowo Road</a>
-          <a className="">Ikoyi, Lagos, Nigeria</a>
+          <p className="">YMCA House,</p>
+          <p className="">1st Floor, 77, Awolowo Road</p>
+          <p className="">Ikoyi, Lagos, Nigeria</p>
         </div>
 
         <div className="laptop:pt-28 tablet:pt-28 lg:pt-28">
           <span className="footer-title">port harcourt office</span>
-          <a className="">Atlantic</a>
-          <a className="">Marine yard, 312 Port</a>
-          <a className="">Harcourt/Aba</a>
-          <a className="">Road.</a>
+          <p className="">Atlantic</p>
+          <p className="">Marine yard, 312 Port</p>
+          <p className="">Harcourt/Aba</p>
+          <p className="">Road.</p>
         </div>
 
         <div className="laptop:pt-28 tablet:pt-28 lg:pt-28">
