@@ -64,7 +64,7 @@ const NewNavBar = () => {
             {/* end of navbar content */}
             {/* end of navbar */}
 
-        </main >
+        </main>
     );
 };
 
