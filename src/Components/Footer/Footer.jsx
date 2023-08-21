@@ -18,10 +18,10 @@ const Footer = () => {
           <img src={AtlanticLogo} alt="footer web logo" className="mb-5" />
 
           <span className="footer-title">Contact(s)</span>
-          <a className="">+234 (0) 803 465 7847</a>
+          <p className="">+234 (0) 803 465 7847</p>
           <a className="link link-hover" href="mailto:info@atlanticmarineoil.com">info@atlanticmarineoil.com</a>
-          <a className="">Port-Harcourt Tel: +234 (0) 818 886 6115</a>
-          <a className="">Takoradi Tel: +233 24 221 5798</a>
+          <p className="">Port-Harcourt Tel: +234 (0) 818 886 6115</p>
+          <p className="">Takoradi Tel: +233 24 221 5798</p>
         </div>
 
         <div className="laptop:pt-28 tablet:pt-28 lg:pt-28">
