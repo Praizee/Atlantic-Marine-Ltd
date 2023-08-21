@@ -41,9 +41,9 @@ const Footer = () => {
 
         <div className="laptop:pt-28 tablet:pt-28 lg:pt-28">
           <span className="footer-title">takoradi office</span>
-          <a className="">Navy Air-base, SOPC/</a>
-          <a className="">GNPC Shore Base,</a>
-          <a className="">Takoradi, Ghana</a>
+          <p className="">Navy Air-base, SOPC/</p>
+          <p className="">GNPC Shore Base,</p>
+          <p className="">Takoradi, Ghana</p>
         </div>
 
         <div className="laptop:pt-28 tablet:pt-28 lg:pt-28">
