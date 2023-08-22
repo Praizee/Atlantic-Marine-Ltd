@@ -49,7 +49,7 @@ const Navbar = () => {
 
         </div>
       </div>
-    </main >
+    </main>
   );
 };
 
